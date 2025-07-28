@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization xmlns="http://nasajon.com/schemas/localization.xsd"
+culture="en"
+moduleId="EE04F36F-BAD2-4305-CCB3-34F5B1D0C8F1">
+  <group name="LogOnView">
+    <string key="GS_LogOn_Title">Log on to Nasajon BI</string>
+    <string key="GS_LogOn_Username">Username</string>
+    <string key="GS_LogOn_Password">Password</string>
+    <string key="GS_LogOn_LoginButton">Log In</string>
+    <string key="GS_LogOn_ForgotPassword">Forgot Password?</string>
+    <string key="GS_LogOn_RememberMe">Remember Me</string>
+    <string key="GS_LogOn_Error">Invalid username or password</string>
+    
+    <group name="PasswordReset" tags="client">
+      <string key="GS_PasswordReset_Title">Reset Password</string>
+      <string key="GS_PasswordReset_Email">Email Address</string>
+      <string key="GS_PasswordReset_Submit">Send Reset Link</string>
+      <string key="GS_PasswordReset_Success">Password reset link sent to your email</string>
+      <string key="GS_PasswordReset_Error">Email not found in our system</string>
+    </group>
+  </group>
+  
+  <group name="Dashboard">
+    <string key="GS_Dashboard_Title">Dashboard</string>
+    <string key="GS_Dashboard_Welcome">Welcome to your dashboard</string>
+    <string key="GS_Dashboard_Refresh">Refresh Data</string>
+    <string key="GS_Dashboard_Export">Export Report</string>
+    <string key="GS_Dashboard_Settings">Settings</string>
+    
+    <group name="Charts">
+      <string key="GS_Charts_Title">Charts and Graphs</string>
+      <string key="GS_Charts_Loading">Loading chart data...</string>
+      <string key="GS_Charts_NoData">No data available</string>
+      <string key="GS_Charts_ZoomIn">Zoom In</string>
+      <string key="GS_Charts_ZoomOut">Zoom Out</string>
+    </group>
+  </group>
+  
+  <group name="Reports">
+    <string key="GS_Reports_Title">Reports</string>
+    <string key="GS_Reports_Create">Create New Report</string>
+    <string key="GS_Reports_Edit">Edit Report</string>
+    <string key="GS_Reports_Delete">Delete Report</string>
+    <string key="GS_Reports_Save">Save Report</string>
+    <string key="GS_Reports_Share">Share Report</string>
+    <string key="GS_Reports_Print">Print Report</string>
+    
+    <group name="Filters">
+      <string key="GS_Filters_Title">Report Filters</string>
+      <string key="GS_Filters_DateRange">Date Range</string>
+      <string key="GS_Filters_Apply">Apply Filters</string>
+      <string key="GS_Filters_Clear">Clear All Filters</string>
+      <string key="GS_Filters_FromDate">From Date</string>
+      <string key="GS_Filters_ToDate">To Date</string>
+    </group>
+  </group>
+  
+  <group name="Settings">
+    <string key="GS_Settings_Title">Settings</string>
+    <string key="GS_Settings_Profile">Profile Settings</string>
+    <string key="GS_Settings_Notifications">Notification Settings</string>
+    <string key="GS_Settings_Security">Security Settings</string>
+    <string key="GS_Settings_Language">Language Settings</string>
+    <string key="GS_Settings_Save">Save Changes</string>
+    <string key="GS_Settings_Cancel">Cancel</string>
+    
+    <group name="Profile">
+      <string key="GS_Profile_FirstName">First Name</string>
+      <string key="GS_Profile_LastName">Last Name</string>
+      <string key="GS_Profile_Email">Email Address</string>
+      <string key="GS_Profile_Phone">Phone Number</string>
+      <string key="GS_Profile_Company">Company</string>
+      <string key="GS_Profile_Position">Job Position</string>
+    </group>
+  </group>
+  
+  <group name="Common">
+    <string key="GS_Common_Yes">Yes</string>
+    <string key="GS_Common_No">No</string>
+    <string key="GS_Common_OK">OK</string>
+    <string key="GS_Common_Cancel">Cancel</string>
+    <string key="GS_Common_Save">Save</string>
+    <string key="GS_Common_Delete">Delete</string>
+    <string key="GS_Common_Edit">Edit</string>
+    <string key="GS_Common_Add">Add</string>
+    <string key="GS_Common_Remove">Remove</string>
+    <string key="GS_Common_Loading">Loading...</string>
+    <string key="GS_Common_Error">An error occurred</string>
+    <string key="GS_Common_Success">Operation completed successfully</string>
+    <string key="GS_Common_Warning">Warning</string>
+    <string key="GS_Common_Info">Information</string>
+  </group>
+</localization> 

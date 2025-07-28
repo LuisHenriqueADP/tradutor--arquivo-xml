@@ -1,0 +1,31 @@
+{
+  "name": "xml-localization-translator",
+  "version": "1.0.0",
+  "description": "Sistema para traduzir arquivos XML de localização do inglês para português",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "translate": "npm run build && node dist/index.js translate",
+    "validate": "npm run build && node dist/index.js validate",
+    "test": "npm run build && node dist/index.js test"
+  },
+  "keywords": ["xml", "localization", "translation", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.6.2",
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/xml2js": "^0.4.14",
+    "@types/fs-extra": "^11.0.1",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+} 
