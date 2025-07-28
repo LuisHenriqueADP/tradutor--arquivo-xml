@@ -40,7 +40,7 @@ temp/
 coverage/
 *.lcov
 
-# Arquivos de tradução gerados (opcional)
+# Arquivos de tradução gerados
 *-translated.xml
 *-pt.xml
 
