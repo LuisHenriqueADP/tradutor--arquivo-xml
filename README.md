@@ -23,9 +23,6 @@ Este sistema traduz arquivos XML de localização de sistemas de BI, seguindo o 
 
 ### Traduzir Arquivo
 
-```bash
-npm run translate <arquivo-entrada.xml> [opções]
-```
 
 **Exemplo:**
 ```bash
